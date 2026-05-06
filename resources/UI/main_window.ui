@@ -1,0 +1,5674 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QWidget" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1850</width>
+    <height>1000</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QGroupBox" name="groupBox_HeaterR_Check">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>625</y>
+     <width>471</width>
+     <height>106</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>微软雅黑</family>
+     <pointsize>12</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#groupBox_HeaterR_Check
+{
+	border: 2px solid orange;
+
+    margin-top:3ex;
+	border-radius:5px;
+
+}
+#groupBox_HeaterR_Check::title
+{
+	subcontrol-origin:margin;
+	color:blue;
+	left:10px;
+}
+</string>
+   </property>
+   <property name="title">
+    <string>HeaterR_Check</string>
+   </property>
+   <widget class="QLineEdit" name="YQ_HeaterR_P">
+    <property name="geometry">
+     <rect>
+      <x>250</x>
+      <y>40</y>
+      <width>40</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>微软雅黑</family>
+      <pointsize>8</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_85">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>20</y>
+      <width>28</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>微软雅黑</family>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>XP：</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_82">
+    <property name="geometry">
+     <rect>
+      <x>15</x>
+      <y>40</y>
+      <width>31</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>微软雅黑</family>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>R_P</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="YP_HeaterR_P">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>40</y>
+      <width>40</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>微软雅黑</family>
+      <pointsize>8</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_88">
+    <property name="geometry">
+     <rect>
+      <x>255</x>
+      <y>20</y>
+      <width>28</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>微软雅黑</family>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>YQ：</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="XI_HeaterR_P">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>40</y>
+      <width>40</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>微软雅黑</family>
+      <pointsize>8</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="HeaterR_DirectRd">
+    <property name="geometry">
+     <rect>
+      <x>355</x>
+      <y>20</y>
+      <width>50</width>
+      <height>35</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>微软雅黑</family>
+      <pointsize>8</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Direct
+Rd R</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="HeaterR_DirectWrt">
+    <property name="geometry">
+     <rect>
+      <x>355</x>
+      <y>60</y>
+      <width>50</width>
+      <height>35</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>微软雅黑</family>
+      <pointsize>8</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Direct
+Wrt R</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="XP_HeaterR_N">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>70</y>
+      <width>40</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>微软雅黑</family>
+      <pointsize>8</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="XI_HeaterR_N">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>70</y>
+      <width>40</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>微软雅黑</family>
+      <pointsize>8</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="YI_HeaterR_N">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>70</y>
+      <width>40</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>微软雅黑</family>
+      <pointsize>8</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="YI_HeaterR_P">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>40</y>
+      <width>40</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>微软雅黑</family>
+      <pointsize>8</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="XQ_HeaterR_N">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>70</y>
+      <width>40</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>微软雅黑</family>
+      <pointsize>8</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="XP_HeaterR_P">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>40</y>
+      <width>40</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>微软雅黑</family>
+      <pointsize>8</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_81">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>20</y>
+      <width>28</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>微软雅黑</family>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>XI：</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_87">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>20</y>
+      <width>28</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>微软雅黑</family>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>YI：</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="XQ_HeaterR_P">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>40</y>
+      <width>40</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>微软雅黑</family>
+      <pointsize>8</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_84">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>20</y>
+      <width>28</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>微软雅黑</family>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>XQ：</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_83">
+    <property name="geometry">
+     <rect>
+      <x>15</x>
+      <y>65</y>
+      <width>31</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>微软雅黑</family>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="toolTip">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;YI P&lt;span style=&quot; vertical-align:sub;&quot;&gt;N&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+    <property name="text">
+     <string>R_N</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="YP_HeaterR_N">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>70</y>
+      <width>40</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>微软雅黑</family>
+      <pointsize>8</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="YQ_HeaterR_N">
+    <property name="geometry">
+     <rect>
+      <x>250</x>
+      <y>70</y>
+      <width>40</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>微软雅黑</family>
+      <pointsize>8</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_89">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>20</y>
+      <width>28</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>微软雅黑</family>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>YP：</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QGroupBox" name="groupBox_MCU_Host">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>10</y>
+     <width>471</width>
+     <height>611</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="font">
+    <font>
+     <family>微软雅黑</family>
+     <pointsize>14</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#groupBox_MCU_Host
+{
+	border: 2px solid red;
+
+    margin-top:3.3ex;
+	border-radius:5px;
+
+}
+#groupBox_MCU_Host::title
+{
+	subcontrol-origin:margin;
+	color:blue;
+	left:15px;
+}
+</string>
+   </property>
+   <property name="title">
+    <string>HOST</string>
+   </property>
+   <widget class="QPushButton" name="SerialPortA_OnOff">
+    <property name="geometry">
+     <rect>
+      <x>215</x>
+      <y>29</y>
+      <width>115</width>
+      <height>35</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>微软雅黑</family>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>连接/Connect</string>
+    </property>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_PowerControl">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>65</y>
+      <width>431</width>
+      <height>391</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>微软雅黑</family>
+      <pointsize>16</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#groupBox_PowerControl
+{
+	border: 2px solid  orange;
+
+    margin-top:3.3ex;
+	border-radius:5px;
+
+}
+#groupBox_PowerControl::title
+{
+	subcontrol-origin:margin;
+	color:blue;
+	left:20px;
+}
+</string>
+    </property>
+    <property name="title">
+     <string>PowerControl</string>
+    </property>
+    <widget class="QPushButton" name="pushButton_PowerUp">
+     <property name="geometry">
+      <rect>
+       <x>15</x>
+       <y>30</y>
+       <width>125</width>
+       <height>50</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>微软雅黑</family>
+       <pointsize>10</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>板子上电
+Board PowerUp</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_PowerOff">
+     <property name="geometry">
+      <rect>
+       <x>150</x>
+       <y>30</y>
+       <width>125</width>
+       <height>50</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>微软雅黑</family>
+       <pointsize>10</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>板子下电
+Board PowerOff</string>
+     </property>
+    </widget>
+    <widget class="QGroupBox" name="groupBox_Heater_VCC">
+     <property name="geometry">
+      <rect>
+       <x>15</x>
+       <y>85</y>
+       <width>386</width>
+       <height>91</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>微软雅黑</family>
+       <pointsize>12</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">#groupBox_Heater_VCC
+{
+
+	border: 2px solid orange;
+    margin-top:3.3ex;
+	border-radius:8px;
+
+}
+#groupBox_Heater_VCC::title
+{
+	subcontrol-origin:margin;
+	left:10px;
+	color:blue;
+}
+</string>
+     </property>
+     <property name="title">
+      <string>Heater_VCC</string>
+     </property>
+     <property name="checkable">
+      <bool>true</bool>
+     </property>
+     <widget class="QLineEdit" name="TargetVolt_HeaterVCC">
+      <property name="geometry">
+       <rect>
+        <x>75</x>
+        <y>25</y>
+        <width>50</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Arial Black</family>
+        <pointsize>9</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>5</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="AdtoVolt_HeaterVCC">
+      <property name="geometry">
+       <rect>
+        <x>205</x>
+        <y>55</y>
+        <width>50</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Arial Black</family>
+        <pointsize>9</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_25">
+      <property name="geometry">
+       <rect>
+        <x>15</x>
+        <y>25</y>
+        <width>66</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>微软雅黑</family>
+        <pointsize>9</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Target/V:</string>
+      </property>
+     </widget>
+     <widget class="QCheckBox" name="EN_AutoLock_HeaterVCC">
+      <property name="geometry">
+       <rect>
+        <x>15</x>
+        <y>55</y>
+        <width>115</width>
+        <height>35</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>微软雅黑</family>
+        <pointsize>9</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>AutoLock Volt</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="WrtDA_HeaterVCC">
+      <property name="geometry">
+       <rect>
+        <x>260</x>
+        <y>20</y>
+        <width>40</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>微软雅黑</family>
+        <pointsize>8</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Wrt</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="ReadDA_HeaterVCC">
+      <property name="geometry">
+       <rect>
+        <x>300</x>
+        <y>20</y>
+        <width>40</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>微软雅黑</family>
+        <pointsize>9</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Rd</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="DaVolt_Adjust_HeaterVCC">
+      <property name="geometry">
+       <rect>
+        <x>205</x>
+        <y>20</y>
+        <width>50</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>微软雅黑</family>
+        <pointsize>9</pointsize>
+        <weight>75</weight>
+        <italic>false</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true"/>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_11">
+      <property name="geometry">
+       <rect>
+        <x>160</x>
+        <y>20</y>
+        <width>56</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>微软雅黑</family>
+        <pointsize>9</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+        <kerning>true</kerning>
+       </font>
+      </property>
+      <property name="text">
+       <string>DA1/V:
+0~3.3V</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_66">
+      <property name="geometry">
+       <rect>
+        <x>160</x>
+        <y>55</y>
+        <width>51</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>微软雅黑</family>
+        <pointsize>9</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string/>
+      </property>
+      <property name="text">
+       <string>Report
+VCC/V:</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QGroupBox" name="groupBox_DRV_VCC">
+     <property name="geometry">
+      <rect>
+       <x>15</x>
+       <y>185</y>
+       <width>386</width>
+       <height>91</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>微软雅黑</family>
+       <pointsize>12</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">#groupBox_DRV_VCC
+{
+	border: 2px solid orange;
+
+    margin-top:3.3ex;
+	border-radius:8px;
+
+}
+#groupBox_DRV_VCC::title
+{
+	subcontrol-origin:margin;
+	color:blue;
+	left:10px;
+}
+</string>
+     </property>
+     <property name="title">
+      <string notr="true">DRV_VCC</string>
+     </property>
+     <property name="checkable">
+      <bool>true</bool>
+     </property>
+     <property name="checked">
+      <bool>true</bool>
+     </property>
+     <widget class="QLabel" name="label_65">
+      <property name="geometry">
+       <rect>
+        <x>160</x>
+        <y>55</y>
+        <width>46</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>微软雅黑</family>
+        <pointsize>9</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string/>
+      </property>
+      <property name="text">
+       <string>Report
+VCC/V:</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="TargetVolt_DRV_VCC">
+      <property name="geometry">
+       <rect>
+        <x>75</x>
+        <y>25</y>
+        <width>50</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>微软雅黑</family>
+        <pointsize>9</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>3.3</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_68">
+      <property name="geometry">
+       <rect>
+        <x>15</x>
+        <y>30</y>
+        <width>61</width>
+        <height>25</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>微软雅黑</family>
+        <pointsize>9</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Target/V:</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="AdtoVolt_DRV_VCC">
+      <property name="geometry">
+       <rect>
+        <x>205</x>
+        <y>55</y>
+        <width>50</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>微软雅黑</family>
+        <pointsize>9</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_67">
+      <property name="geometry">
+       <rect>
+        <x>270</x>
+        <y>55</y>
+        <width>61</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>微软雅黑</family>
+        <pointsize>9</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true"/>
+      </property>
+      <property name="text">
+       <string>ICC/mA:</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="DRV_ICC">
+      <property name="geometry">
+       <rect>
+        <x>320</x>
+        <y>55</y>
+        <width>50</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>微软雅黑</family>
+        <pointsize>9</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QCheckBox" name="EN_AutoLock_DRV_VCC">
+      <property name="geometry">
+       <rect>
+        <x>15</x>
+        <y>55</y>
+        <width>115</width>
+        <height>35</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>微软雅黑</family>
+        <pointsize>9</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>AutoLock VCC</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_16">
+      <property name="geometry">
+       <rect>
+        <x>160</x>
+        <y>20</y>
+        <width>50</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>微软雅黑</family>
+        <pointsize>9</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string/>
+      </property>
+      <property name="text">
+       <string>DA3/V:
+0~3.3</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="ReadDA_DRV_VCC">
+      <property name="geometry">
+       <rect>
+        <x>300</x>
+        <y>20</y>
+        <width>40</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>微软雅黑</family>
+        <pointsize>9</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Rd</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="WrtDA_DRV_VCC">
+      <property name="geometry">
+       <rect>
+        <x>260</x>
+        <y>20</y>
+        <width>40</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>微软雅黑</family>
+        <pointsize>8</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Wrt</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="DaVolt_Adjust_DRV_VCC">
+      <property name="geometry">
+       <rect>
+        <x>205</x>
+        <y>20</y>
+        <width>50</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>微软雅黑</family>
+        <pointsize>9</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QGroupBox" name="groupBox_DRV_VDR">
+     <property name="geometry">
+      <rect>
+       <x>15</x>
+       <y>285</y>
+       <width>386</width>
+       <height>91</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>微软雅黑</family>
+       <pointsize>12</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">#groupBox_DRV_VDR
+{
+	border: 2px solid orange;
+    margin-top:3.3ex;
+	border-radius:8px;
+
+}
+#groupBox_DRV_VDR::title
+{
+	subcontrol-origin:margin;
+	left:10px;
+	color:blue;
+}
+</string>
+     </property>
+     <property name="title">
+      <string>DRV_VDR</string>
+     </property>
+     <property name="checkable">
+      <bool>true</bool>
+     </property>
+     <property name="checked">
+      <bool>true</bool>
+     </property>
+     <widget class="QLabel" name="label_24">
+      <property name="geometry">
+       <rect>
+        <x>160</x>
+        <y>55</y>
+        <width>46</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>微软雅黑</family>
+        <pointsize>9</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Report
+VCC/V:</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="TargetVolt_DRV_VDR">
+      <property name="geometry">
+       <rect>
+        <x>75</x>
+        <y>25</y>
+        <width>50</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Arial Black</family>
+        <pointsize>9</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>3.5</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_23">
+      <property name="geometry">
+       <rect>
+        <x>15</x>
+        <y>25</y>
+        <width>66</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>微软雅黑</family>
+        <pointsize>9</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Target/V:</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="AdtoVolt_DRV_VDR">
+      <property name="geometry">
+       <rect>
+        <x>205</x>
+        <y>55</y>
+        <width>50</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Arial Black</family>
+        <pointsize>9</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="DRV_IDD">
+      <property name="geometry">
+       <rect>
+        <x>320</x>
+        <y>55</y>
+        <width>50</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Arial Black</family>
+        <pointsize>9</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_69">
+      <property name="geometry">
+       <rect>
+        <x>265</x>
+        <y>55</y>
+        <width>61</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>微软雅黑</family>
+        <pointsize>9</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true"/>
+      </property>
+      <property name="text">
+       <string>IDD/mA:</string>
+      </property>
+     </widget>
+     <widget class="QCheckBox" name="EN_AutoLock_DRV_VDR">
+      <property name="geometry">
+       <rect>
+        <x>15</x>
+        <y>50</y>
+        <width>115</width>
+        <height>35</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>微软雅黑</family>
+        <pointsize>9</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>AutoLock VDR</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_21">
+      <property name="geometry">
+       <rect>
+        <x>155</x>
+        <y>20</y>
+        <width>50</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>微软雅黑</family>
+        <pointsize>10</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>DA2/V:
+0~3.3V</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="WrtDA_DRV_VDR">
+      <property name="geometry">
+       <rect>
+        <x>260</x>
+        <y>20</y>
+        <width>40</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>微软雅黑</family>
+        <pointsize>8</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Wrt</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="DaVolt_Adjust_DRV_VDR">
+      <property name="geometry">
+       <rect>
+        <x>205</x>
+        <y>20</y>
+        <width>51</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Arial Black</family>
+        <pointsize>9</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="ReadDA_DRV_VDR">
+      <property name="geometry">
+       <rect>
+        <x>300</x>
+        <y>20</y>
+        <width>40</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>微软雅黑</family>
+        <pointsize>9</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Rd</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QLineEdit" name="DaVolt_Adjust_HeaterVCC_2">
+     <property name="geometry">
+      <rect>
+       <x>340</x>
+       <y>45</y>
+       <width>36</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>微软雅黑</family>
+       <pointsize>9</pointsize>
+       <weight>75</weight>
+       <italic>false</italic>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <property name="text">
+      <string>0.3</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_12">
+     <property name="geometry">
+      <rect>
+       <x>325</x>
+       <y>20</y>
+       <width>71</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>微软雅黑</family>
+       <pointsize>10</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+       <kerning>true</kerning>
+      </font>
+     </property>
+     <property name="text">
+      <string>Volt Limit:</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_13">
+     <property name="geometry">
+      <rect>
+       <x>325</x>
+       <y>45</y>
+       <width>26</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>微软雅黑</family>
+       <pointsize>12</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+       <kerning>true</kerning>
+      </font>
+     </property>
+     <property name="text">
+      <string>±</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_14">
+     <property name="geometry">
+      <rect>
+       <x>380</x>
+       <y>45</y>
+       <width>26</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>微软雅黑</family>
+       <pointsize>10</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+       <kerning>true</kerning>
+      </font>
+     </property>
+     <property name="text">
+      <string>V</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QComboBox" name="SerialPortA">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>30</y>
+      <width>80</width>
+      <height>33</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>微软雅黑</family>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="editable">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_SerialPort">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>35</y>
+      <width>106</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>微软雅黑</family>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string>SerialPort A:</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Rd_AllADC">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>470</y>
+      <width>111</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>微软雅黑</family>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Read
+ALL_ADC</string>
+    </property>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_CDM">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>460</y>
+      <width>186</width>
+      <height>136</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>微软雅黑</family>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#groupBox_CDM
+{
+	border: 2px solid orange;
+
+    margin-top:3.3ex;
+	border-radius:5px;
+
+}
+#groupBox_CDM::title
+{
+	subcontrol-origin:margin;
+	color:blue;
+	left:90px;
+}
+</string>
+    </property>
+    <property name="title">
+     <string>CDM</string>
+    </property>
+    <widget class="QLineEdit" name="CDM_Consumption">
+     <property name="geometry">
+      <rect>
+       <x>15</x>
+       <y>40</y>
+       <width>50</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Arial Black</family>
+       <pointsize>10</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="Ph_Dither_5">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>20</y>
+       <width>111</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>微软雅黑</family>
+       <pointsize>9</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>Consumption:</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="CDM_Temperature">
+     <property name="geometry">
+      <rect>
+       <x>15</x>
+       <y>95</y>
+       <width>50</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Arial Black</family>
+       <pointsize>10</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="Ph_Dither_2">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>75</y>
+       <width>151</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>微软雅黑</family>
+       <pointsize>9</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>PackageTemperature:</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="CDM_TemperatureRd">
+     <property name="geometry">
+      <rect>
+       <x>85</x>
+       <y>95</y>
+       <width>80</width>
+       <height>35</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>微软雅黑</family>
+       <pointsize>9</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>Update_T</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="Ph_Dither_3">
+     <property name="geometry">
+      <rect>
+       <x>68</x>
+       <y>100</y>
+       <width>16</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>微软雅黑</family>
+       <pointsize>9</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>℃</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="Ph_Dither_6">
+     <property name="geometry">
+      <rect>
+       <x>68</x>
+       <y>45</y>
+       <width>16</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>微软雅黑</family>
+       <pointsize>9</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>W</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="Update_PwrReport">
+     <property name="geometry">
+      <rect>
+       <x>85</x>
+       <y>40</y>
+       <width>80</width>
+       <height>35</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>微软雅黑</family>
+       <pointsize>9</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>Update_Pwr</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QPushButton" name="pushButton_DRV_Control">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>530</y>
+      <width>211</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>微软雅黑</family>
+      <pointsize>18</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#pushButton_DRV_Control
+{
+	border: 5px solid red;
+	border-radius:8px;
+	background-color:pink;
+
+}</string>
+    </property>
+    <property name="text">
+     <string>DRV_Control</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Save_PwrSetting">
+    <property name="geometry">
+     <rect>
+      <x>345</x>
+      <y>470</y>
+      <width>86</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>微软雅黑</family>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Save
+Setting</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QTextBrowser" name="QTextBrowser_Print">
+   <property name="geometry">
+    <rect>
+     <x>1290</x>
+     <y>20</y>
+     <width>496</width>
+     <height>711</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>微软雅黑</family>
+     <pointsize>9</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="autoFormatting">
+    <set>QTextEdit::AutoNone</set>
+   </property>
+  </widget>
+  <widget class="QGroupBox" name="groupBox_InputCMD">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>740</y>
+     <width>471</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>微软雅黑</family>
+     <pointsize>10</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#groupBox_InputCMD
+{
+	border: 2px solid orange;
+
+    margin-top:3.3ex;
+	border-radius:5px;
+
+}
+#groupBox_InputCMD::title
+{
+	subcontrol-origin:margin;
+	color:blue;
+	left:10px;
+}
+</string>
+   </property>
+   <property name="title">
+    <string>SerialPortA Direct Wtr+Rd:</string>
+   </property>
+   <widget class="QPushButton" name="SerialPortA_Sent">
+    <property name="geometry">
+     <rect>
+      <x>410</x>
+      <y>20</y>
+      <width>46</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>微软雅黑</family>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>send</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="SerialPortA_textEdit">
+    <property name="geometry">
+     <rect>
+      <x>15</x>
+      <y>25</y>
+      <width>381</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>微软雅黑</family>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>dac 1 1000 、、、</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QTextEdit" name="textEdit">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>810</y>
+     <width>251</width>
+     <height>141</height>
+    </rect>
+   </property>
+   <property name="html">
+    <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'SimSun'; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;410:START_SCAN All MAX&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;410:LOCKMODE_B max MAX MAX MAX MAX MAX&lt;br /&gt;410:STOP&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;410:DAC 3 1111&lt;br /&gt;&lt;br /&gt;STM:ADC power&lt;br /&gt;STM:ADC ALL&lt;br /&gt;STM:ADC Power&lt;br /&gt;STM:DAC 3 1000&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="QTextBrowser_Clear_Info">
+   <property name="geometry">
+    <rect>
+     <x>1685</x>
+     <y>745</y>
+     <width>100</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>微软雅黑</family>
+     <pointsize>10</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Clear_Info</string>
+   </property>
+  </widget>
+  <widget class="QGroupBox" name="groupBox_MCU_LOCK">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>515</x>
+     <y>10</y>
+     <width>756</width>
+     <height>961</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>微软雅黑</family>
+     <pointsize>14</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#groupBox_MCU_LOCK
+{
+	border: 2px solid red;
+
+    margin-top:3.3ex;
+	border-radius:5px;
+
+}
+#groupBox_MCU_LOCK::title
+{
+	subcontrol-origin:margin;
+	color:blue;
+	left:15px;
+}
+</string>
+   </property>
+   <property name="title">
+    <string>LockPiont</string>
+   </property>
+   <widget class="QGroupBox" name="groupBox_Heater_DA">
+    <property name="geometry">
+     <rect>
+      <x>25</x>
+      <y>105</y>
+      <width>706</width>
+      <height>156</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>微软雅黑</family>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#groupBox_Heater_DA
+{
+	border: 2px solid orange;
+
+    margin-top:3.3ex;
+	border-radius:5px;
+
+}
+#groupBox_Heater_DA::title
+{
+	subcontrol-origin:margin;
+	color:blue;
+	left:10px;
+}
+</string>
+    </property>
+    <property name="title">
+     <string>Bias_DA: 0~3.3V;  DaHex:000~FFF</string>
+    </property>
+    <widget class="QLabel" name="label_7">
+     <property name="geometry">
+      <rect>
+       <x>185</x>
+       <y>22</y>
+       <width>40</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>微软雅黑</family>
+       <pointsize>14</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>XQ</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_33">
+     <property name="geometry">
+      <rect>
+       <x>515</x>
+       <y>22</y>
+       <width>40</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>微软雅黑</family>
+       <pointsize>14</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>YQ</string>
+     </property>
+    </widget>
+    <widget class="QLCDNumber" name="XI_Volt_LCDNumber">
+     <property name="geometry">
+      <rect>
+       <x>65</x>
+       <y>45</y>
+       <width>60</width>
+       <height>35</height>
+      </rect>
+     </property>
+     <property name="smallDecimalPoint">
+      <bool>false</bool>
+     </property>
+     <property name="value" stdset="0">
+      <double>1.220000000000000</double>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_32">
+     <property name="geometry">
+      <rect>
+       <x>415</x>
+       <y>22</y>
+       <width>40</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>微软雅黑</family>
+       <pointsize>14</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>YI</string>
+     </property>
+    </widget>
+    <widget class="QSlider" name="VerticalSlider_YI">
+     <property name="geometry">
+      <rect>
+       <x>460</x>
+       <y>30</y>
+       <width>20</width>
+       <height>115</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QSlider::handle:vertical{
+border-radius:1px;
+background-color:red;
+width:10px;
+height:8px;
+}
+QSlider::groove:vertical{
+background-color:Pink;
+width:15px;
+}
+QSlider{
+background-color:white;
+}</string>
+     </property>
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+    </widget>
+    <widget class="QSlider" name="VerticalSlider_XI">
+     <property name="geometry">
+      <rect>
+       <x>130</x>
+       <y>30</y>
+       <width>20</width>
+       <height>115</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QSlider::handle:vertical{
+border-radius:1px;
+background-color:red;
+width:10px;
+height:8px;
+}
+QSlider::groove:vertical{
+background-color:Pink;
+width:15px;
+}
+QSlider{
+background-color:white;
+}</string>
+     </property>
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+    </widget>
+    <widget class="QSlider" name="VerticalSlider_YQ">
+     <property name="geometry">
+      <rect>
+       <x>565</x>
+       <y>30</y>
+       <width>20</width>
+       <height>115</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QSlider::handle:vertical{
+border-radius:1px;
+background-color:red;
+width:10px;
+height:8px;
+}
+QSlider::groove:vertical{
+background-color:Pink;
+width:15px;
+}
+QSlider{
+background-color:white;
+}</string>
+     </property>
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_6">
+     <property name="geometry">
+      <rect>
+       <x>85</x>
+       <y>22</y>
+       <width>40</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>微软雅黑</family>
+       <pointsize>14</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>XI</string>
+     </property>
+    </widget>
+    <widget class="QSlider" name="VerticalSlider_XQ">
+     <property name="geometry">
+      <rect>
+       <x>235</x>
+       <y>30</y>
+       <width>20</width>
+       <height>115</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QSlider::handle:vertical{
+border-radius:1px;
+background-color:red;
+width:10px;
+height:8px;
+}
+QSlider::groove:vertical{
+background-color:Pink;
+width:15px;
+}
+QSlider{
+background-color:white;
+}</string>
+     </property>
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+    </widget>
+    <widget class="QLCDNumber" name="XQ_Volt_LCDNumber">
+     <property name="geometry">
+      <rect>
+       <x>170</x>
+       <y>45</y>
+       <width>60</width>
+       <height>35</height>
+      </rect>
+     </property>
+     <property name="smallDecimalPoint">
+      <bool>false</bool>
+     </property>
+     <property name="value" stdset="0">
+      <double>1.220000000000000</double>
+     </property>
+    </widget>
+    <widget class="QLCDNumber" name="YI_Volt_LCDNumber">
+     <property name="geometry">
+      <rect>
+       <x>395</x>
+       <y>45</y>
+       <width>60</width>
+       <height>35</height>
+      </rect>
+     </property>
+     <property name="smallDecimalPoint">
+      <bool>false</bool>
+     </property>
+     <property name="value" stdset="0">
+      <double>1.220000000000000</double>
+     </property>
+    </widget>
+    <widget class="QLCDNumber" name="YQ_Volt_LCDNumber">
+     <property name="geometry">
+      <rect>
+       <x>500</x>
+       <y>45</y>
+       <width>60</width>
+       <height>35</height>
+      </rect>
+     </property>
+     <property name="smallDecimalPoint">
+      <bool>false</bool>
+     </property>
+     <property name="value" stdset="0">
+      <double>1.220000000000000</double>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="YI_DA">
+     <property name="geometry">
+      <rect>
+       <x>395</x>
+       <y>85</y>
+       <width>60</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>微软雅黑</family>
+       <pointsize>8</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="XQ_DA">
+     <property name="geometry">
+      <rect>
+       <x>170</x>
+       <y>85</y>
+       <width>60</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>微软雅黑</family>
+       <pointsize>8</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="XI_DA">
+     <property name="geometry">
+      <rect>
+       <x>65</x>
+       <y>85</y>
+       <width>60</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>微软雅黑</family>
+       <pointsize>8</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="YQ_DA">
+     <property name="geometry">
+      <rect>
+       <x>500</x>
+       <y>85</y>
+       <width>60</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>微软雅黑</family>
+       <pointsize>8</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="XI_DA_Read">
+     <property name="geometry">
+      <rect>
+       <x>96</x>
+       <y>120</y>
+       <width>35</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>微软雅黑</family>
+       <pointsize>10</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>Rd</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="XI_DA_Write">
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>120</y>
+       <width>35</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>微软雅黑</family>
+       <pointsize>10</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>Wrt</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="XQ_DA_Write">
+     <property name="geometry">
+      <rect>
+       <x>165</x>
+       <y>118</y>
+       <width>35</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>微软雅黑</family>
+       <pointsize>10</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>Wrt</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="XQ_DARead">
+     <property name="geometry">
+      <rect>
+       <x>201</x>
+       <y>118</y>
+       <width>35</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>微软雅黑</family>
+       <pointsize>10</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>Rd</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="YI_DA_Read">
+     <property name="geometry">
+      <rect>
+       <x>426</x>
+       <y>120</y>
+       <width>35</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>微软雅黑</family>
+       <pointsize>10</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>Rd</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="YI_DA_Write">
+     <property name="geometry">
+      <rect>
+       <x>390</x>
+       <y>120</y>
+       <width>35</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>微软雅黑</family>
+       <pointsize>10</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>Wrt</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="YQ_DA_Read">
+     <property name="geometry">
+      <rect>
+       <x>531</x>
+       <y>115</y>
+       <width>35</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>微软雅黑</family>
+       <pointsize>10</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>Rd</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="YQ_DA_Write">
+     <property name="geometry">
+      <rect>
+       <x>495</x>
+       <y>115</y>
+       <width>35</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>微软雅黑</family>
+       <pointsize>10</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>Wrt</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_197">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>90</y>
+       <width>51</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>微软雅黑</family>
+       <pointsize>10</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>DaHex</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_199">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>50</y>
+       <width>46</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>微软雅黑</family>
+       <pointsize>12</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>Vp/V:</string>
+     </property>
+    </widget>
+    <widget class="QSlider" name="VerticalSlider_YP">
+     <property name="geometry">
+      <rect>
+       <x>670</x>
+       <y>30</y>
+       <width>20</width>
+       <height>115</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QSlider::handle:vertical{
+border-radius:1px;
+background-color:red;
+width:10px;
+height:8px;
+}
+QSlider::groove:vertical{
+background-color:Pink;
+width:15px;
+}
+QSlider{
+background-color:white;
+}</string>
+     </property>
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="YP_DA_Write">
+     <property name="geometry">
+      <rect>
+       <x>600</x>
+       <y>120</y>
+       <width>35</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>微软雅黑</family>
+       <pointsize>10</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>Wrt</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_36">
+     <property name="geometry">
+      <rect>
+       <x>625</x>
+       <y>24</y>
+       <width>40</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>微软雅黑</family>
+       <pointsize>14</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>YP</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="YP_DA_Read">
+     <property name="geometry">
+      <rect>
+       <x>636</x>
+       <y>120</y>
+       <width>35</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>微软雅黑</family>
+       <pointsize>10</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>Rd</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="YP_DA">
+     <property name="geometry">
+      <rect>
+       <x>605</x>
+       <y>85</y>
+       <width>60</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>微软雅黑</family>
+       <pointsize>8</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+    </widget>
+    <widget class="QLCDNumber" name="YP_Volt_LCDNumber">
+     <property name="geometry">
+      <rect>
+       <x>605</x>
+       <y>45</y>
+       <width>60</width>
+       <height>35</height>
+      </rect>
+     </property>
+     <property name="smallDecimalPoint">
+      <bool>false</bool>
+     </property>
+     <property name="value" stdset="0">
+      <double>1.220000000000000</double>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="XP_DA">
+     <property name="geometry">
+      <rect>
+       <x>275</x>
+       <y>85</y>
+       <width>60</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>微软雅黑</family>
+       <pointsize>8</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="XP_DA_Read">
+     <property name="geometry">
+      <rect>
+       <x>306</x>
+       <y>120</y>
+       <width>35</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>微软雅黑</family>
+       <pointsize>10</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>Rd</string>
+     </property>
+    </widget>
+    <widget class="QLCDNumber" name="XP_Volt_LCDNumber">
+     <property name="geometry">
+      <rect>
+       <x>275</x>
+       <y>45</y>
+       <width>60</width>
+       <height>35</height>
+      </rect>
+     </property>
+     <property name="smallDecimalPoint">
+      <bool>false</bool>
+     </property>
+     <property name="value" stdset="0">
+      <double>1.220000000000000</double>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_37">
+     <property name="geometry">
+      <rect>
+       <x>295</x>
+       <y>22</y>
+       <width>40</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>微软雅黑</family>
+       <pointsize>14</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>XP</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="XP_DA_Write">
+     <property name="geometry">
+      <rect>
+       <x>270</x>
+       <y>120</y>
+       <width>35</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>微软雅黑</family>
+       <pointsize>10</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>Wrt</string>
+     </property>
+    </widget>
+    <widget class="QSlider" name="VerticalSlider_XP">
+     <property name="geometry">
+      <rect>
+       <x>340</x>
+       <y>30</y>
+       <width>20</width>
+       <height>115</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QSlider::handle:vertical{
+border-radius:1px;
+background-color:red;
+width:10px;
+height:8px;
+}
+QSlider::groove:vertical{
+background-color:Pink;
+width:15px;
+}
+QSlider{
+background-color:white;
+}</string>
+     </property>
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_BiasControl">
+    <property name="geometry">
+     <rect>
+      <x>25</x>
+      <y>265</y>
+      <width>706</width>
+      <height>446</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>微软雅黑</family>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#groupBox_BiasControl
+{
+	border: 2px solid orange;
+
+    margin-top:5ex;
+	border-radius:5px;
+
+}
+#groupBox_BiasControl::title
+{
+	subcontrol-origin:margin;
+	color:blue;
+	left:10px;
+	margin-top:1.3ex;
+}
+</string>
+    </property>
+    <property name="title">
+     <string>BiasControl</string>
+    </property>
+    <widget class="QLabel" name="label_186">
+     <property name="geometry">
+      <rect>
+       <x>150</x>
+       <y>115</y>
+       <width>101</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>微软雅黑</family>
+       <pointsize>9</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QGroupBox" name="groupBox_LockDither">
+     <property name="geometry">
+      <rect>
+       <x>15</x>
+       <y>105</y>
+       <width>336</width>
+       <height>156</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>微软雅黑</family>
+       <pointsize>9</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">#groupBox_LockDither
+{
+	border: 1px solid orange;
+
+    margin-top:4ex;
+	border-radius:5px;
+
+}
+#groupBox_LockDither::title
+{
+	subcontrol-origin:margin;
+	color:blue;
+	left:10px;
+	margin-top:1.3ex;
+}
+</string>
+     </property>
+     <property name="title">
+      <string>Dither Vpp/mV toDAC :</string>
+     </property>
+     <widget class="QPushButton" name="LockDither_XP_I_Rd">
+      <property name="geometry">
+       <rect>
+        <x>95</x>
+        <y>90</y>
+        <width>30</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>微软雅黑</family>
+        <pointsize>10</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Rd</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_230">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>60</y>
+        <width>30</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>微软雅黑</family>
+        <pointsize>11</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>XQ:</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="LockDither_XP_Q_Set">
+      <property name="geometry">
+       <rect>
+        <x>128</x>
+        <y>120</y>
+        <width>30</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>微软雅黑</family>
+        <pointsize>10</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Set</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="LockDither_XP_I_Set">
+      <property name="geometry">
+       <rect>
+        <x>128</x>
+        <y>90</y>
+        <width>30</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>微软雅黑</family>
+        <pointsize>10</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Set</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_231">
+      <property name="geometry">
+       <rect>
+        <x>5</x>
+        <y>125</y>
+        <width>45</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>微软雅黑</family>
+        <pointsize>11</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>XP_Q:</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="LockDither_XI_Set">
+      <property name="geometry">
+       <rect>
+        <x>128</x>
+        <y>25</y>
+        <width>30</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>微软雅黑</family>
+        <pointsize>10</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Set</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="LockDither_XP_Q_Rd">
+      <property name="geometry">
+       <rect>
+        <x>95</x>
+        <y>120</y>
+        <width>30</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>微软雅黑</family>
+        <pointsize>10</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Rd</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="LockDither_XI">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>25</y>
+        <width>40</width>
+        <height>25</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>微软雅黑</family>
+        <pointsize>10</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="LockDither_XQ_Set">
+      <property name="geometry">
+       <rect>
+        <x>128</x>
+        <y>55</y>
+        <width>30</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>微软雅黑</family>
+        <pointsize>10</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Set</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="LockDither_XP_Q">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>120</y>
+        <width>40</width>
+        <height>25</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>微软雅黑</family>
+        <pointsize>10</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="LockDither_XP_I">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>90</y>
+        <width>40</width>
+        <height>25</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>微软雅黑</family>
+        <pointsize>10</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_208">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>30</y>
+        <width>30</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>微软雅黑</family>
+        <pointsize>11</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>XI:</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="LockDither_XI_Rd">
+      <property name="geometry">
+       <rect>
+        <x>95</x>
+        <y>25</y>
+        <width>30</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>微软雅黑</family>
+        <pointsize>10</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Rd</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="LockDither_XQ_Rd">
+      <property name="geometry">
+       <rect>
+        <x>95</x>
+        <y>55</y>
+        <width>30</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>微软雅黑</family>
+        <pointsize>10</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Rd</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="LockDither_XQ">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>55</y>
+        <width>40</width>
+        <height>25</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>微软雅黑</family>
+        <pointsize>10</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_210">
+      <property name="geometry">
+       <rect>
+        <x>5</x>
+        <y>95</y>
+        <width>45</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>微软雅黑</family>
+        <pointsize>11</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>XP_I:</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_236">
+      <property name="geometry">
+       <rect>
+        <x>185</x>
+        <y>60</y>
+        <width>30</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>微软雅黑</family>
+        <pointsize>11</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>YQ:</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_209">
+      <property name="geometry">
+       <rect>
+        <x>185</x>
+        <y>30</y>
+        <width>30</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>微软雅黑</family>
+        <pointsize>11</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>YI:</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="LockDither_YQ_Set">
+      <property name="geometry">
+       <rect>
+        <x>293</x>
+        <y>55</y>
+        <width>30</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>微软雅黑</family>
+        <pointsize>10</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Set</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="LockDither_YP_I">
+      <property name="geometry">
+       <rect>
+        <x>215</x>
+        <y>90</y>
+        <width>40</width>
+        <height>25</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>微软雅黑</family>
+        <pointsize>10</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="LockDither_YP_Q_Set">
+      <property name="geometry">
+       <rect>
+        <x>293</x>
+        <y>120</y>
+        <width>30</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>微软雅黑</family>
+        <pointsize>10</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Set</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="LockDither_YI_Rd">
+      <property name="geometry">
+       <rect>
+        <x>260</x>
+        <y>25</y>
+        <width>30</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>微软雅黑</family>
+        <pointsize>10</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Rd</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="LockDither_YQ_Rd">
+      <property name="geometry">
+       <rect>
+        <x>260</x>
+        <y>55</y>
+        <width>30</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>微软雅黑</family>
+        <pointsize>10</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Rd</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="LockDither_YI_Set">
+      <property name="geometry">
+       <rect>
+        <x>293</x>
+        <y>25</y>
+        <width>30</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>微软雅黑</family>
+        <pointsize>10</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Set</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="LockDither_YQ">
+      <property name="geometry">
+       <rect>
+        <x>215</x>
+        <y>55</y>
+        <width>40</width>
+        <height>25</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>微软雅黑</family>
+        <pointsize>10</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="LockDither_YP_Q_Rd">
+      <property name="geometry">
+       <rect>
+        <x>260</x>
+        <y>120</y>
+        <width>30</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>微软雅黑</family>
+        <pointsize>10</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Rd</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="LockDither_YI">
+      <property name="geometry">
+       <rect>
+        <x>215</x>
+        <y>25</y>
+        <width>40</width>
+        <height>25</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>微软雅黑</family>
+        <pointsize>10</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_213">
+      <property name="geometry">
+       <rect>
+        <x>170</x>
+        <y>95</y>
+        <width>45</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>微软雅黑</family>
+        <pointsize>11</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>YP_I:</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_237">
+      <property name="geometry">
+       <rect>
+        <x>170</x>
+        <y>125</y>
+        <width>45</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>微软雅黑</family>
+        <pointsize>11</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>YP_Q:</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="LockDither_YP_Q">
+      <property name="geometry">
+       <rect>
+        <x>215</x>
+        <y>120</y>
+        <width>40</width>
+        <height>25</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>微软雅黑</family>
+        <pointsize>10</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="LockDither_YP_I_Set">
+      <property name="geometry">
+       <rect>
+        <x>293</x>
+        <y>90</y>
+        <width>30</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>微软雅黑</family>
+        <pointsize>10</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Set</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="LockDither_YP_I_Rd">
+      <property name="geometry">
+       <rect>
+        <x>260</x>
+        <y>90</y>
+        <width>30</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>微软雅黑</family>
+        <pointsize>10</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Rd</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QGroupBox" name="groupBox_LockingAction">
+     <property name="geometry">
+      <rect>
+       <x>15</x>
+       <y>275</y>
+       <width>336</width>
+       <height>151</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>微软雅黑</family>
+       <pointsize>10</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">#groupBox_LockingAction
+{
+	border: 1px solid orange;
+
+    margin-top:4ex;
+	border-radius:5px;
+
+}
+#groupBox_LockingAction::title
+{
+	subcontrol-origin:margin;
+	color:blue;
+	left:10px;
+	margin-top:1.3ex;
+}
+</string>
+     </property>
+     <property name="title">
+      <string>LockingAction</string>
+     </property>
+     <widget class="QPushButton" name="Locking_Stop">
+      <property name="geometry">
+       <rect>
+        <x>175</x>
+        <y>85</y>
+        <width>50</width>
+        <height>45</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>微软雅黑</family>
+        <pointsize>12</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Stop</string>
+      </property>
+      <property name="checkable">
+       <bool>false</bool>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="Locking_Run">
+      <property name="geometry">
+       <rect>
+        <x>120</x>
+        <y>85</y>
+        <width>50</width>
+        <height>45</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>微软雅黑</family>
+        <pointsize>12</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Run</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Ph_Dither_28">
+      <property name="geometry">
+       <rect>
+        <x>125</x>
+        <y>60</y>
+        <width>106</width>
+        <height>25</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>微软雅黑</family>
+        <pointsize>10</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>LockingAction:</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Ph_Dither_19">
+      <property name="geometry">
+       <rect>
+        <x>15</x>
+        <y>115</y>
+        <width>86</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>微软雅黑</family>
+        <pointsize>10</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Green@Run</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Ph_Dither_15">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>60</y>
+        <width>90</width>
+        <height>25</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>微软雅黑</family>
+        <pointsize>10</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>LockingState:</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="LockState">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>85</y>
+        <width>91</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>微软雅黑</family>
+        <pointsize>10</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">#LockState
+
+{
+	border: 1px solid;
+	border-radius:8px;
+	background-color: rgb(143, 143, 143);
+
+}</string>
+      </property>
+      <property name="text">
+       <string>0</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="LockCycle">
+      <property name="geometry">
+       <rect>
+        <x>115</x>
+        <y>30</y>
+        <width>106</width>
+        <height>25</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>微软雅黑</family>
+        <pointsize>9</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>100</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Ph_Dither_32">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>30</y>
+        <width>90</width>
+        <height>25</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>微软雅黑</family>
+        <pointsize>10</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>LockingCycle:</string>
+      </property>
+     </widget>
+     <widget class="QCheckBox" name="BiasControl_PushPull_En_4">
+      <property name="geometry">
+       <rect>
+        <x>245</x>
+        <y>25</y>
+        <width>71</width>
+        <height>40</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>微软雅黑</family>
+        <pointsize>10</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Always
+Locking</string>
+      </property>
+      <property name="checked">
+       <bool>false</bool>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QGroupBox" name="groupBox_ChannleSelect">
+     <property name="geometry">
+      <rect>
+       <x>370</x>
+       <y>105</y>
+       <width>291</width>
+       <height>156</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>微软雅黑</family>
+       <pointsize>9</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">
+
+#groupBox_ChannleSelect
+{
+	border: 1px solid orange;
+
+    margin-top:4ex;
+	border-radius:5px;
+
+}
+#groupBox_ChannleSelect::title
+{
+	subcontrol-origin:margin;
+	color:blue;
+	left:10px;
+	margin-top:1.3ex;
+}
+</string>
+     </property>
+     <property name="title">
+      <string>Channle_Select &amp;&amp; BiasPoint:</string>
+     </property>
+     <widget class="QCheckBox" name="CH_YI">
+      <property name="geometry">
+       <rect>
+        <x>165</x>
+        <y>30</y>
+        <width>50</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>微软雅黑</family>
+        <pointsize>12</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>YI</string>
+      </property>
+      <property name="checked">
+       <bool>false</bool>
+      </property>
+     </widget>
+     <widget class="QCheckBox" name="CH_XI">
+      <property name="geometry">
+       <rect>
+        <x>15</x>
+        <y>30</y>
+        <width>50</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>微软雅黑</family>
+        <pointsize>12</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>XI</string>
+      </property>
+      <property name="checked">
+       <bool>false</bool>
+      </property>
+     </widget>
+     <widget class="QCheckBox" name="CH_XQ">
+      <property name="geometry">
+       <rect>
+        <x>15</x>
+        <y>70</y>
+        <width>50</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>微软雅黑</family>
+        <pointsize>12</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>XQ</string>
+      </property>
+      <property name="checked">
+       <bool>false</bool>
+      </property>
+     </widget>
+     <widget class="QCheckBox" name="CH_YQ">
+      <property name="geometry">
+       <rect>
+        <x>165</x>
+        <y>70</y>
+        <width>50</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>微软雅黑</family>
+        <pointsize>12</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>YQ</string>
+      </property>
+      <property name="checked">
+       <bool>false</bool>
+      </property>
+     </widget>
+     <widget class="QCheckBox" name="CH_XQ_2">
+      <property name="geometry">
+       <rect>
+        <x>15</x>
+        <y>110</y>
+        <width>50</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>微软雅黑</family>
+        <pointsize>12</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>XP</string>
+      </property>
+      <property name="checked">
+       <bool>false</bool>
+      </property>
+     </widget>
+     <widget class="QCheckBox" name="CH_XQ_3">
+      <property name="geometry">
+       <rect>
+        <x>165</x>
+        <y>110</y>
+        <width>50</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>微软雅黑</family>
+        <pointsize>12</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>YP</string>
+      </property>
+      <property name="checked">
+       <bool>false</bool>
+      </property>
+     </widget>
+     <widget class="QComboBox" name="comboBox_BiasPoint_XI">
+      <property name="geometry">
+       <rect>
+        <x>65</x>
+        <y>30</y>
+        <width>60</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>微软雅黑</family>
+        <pointsize>10</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <item>
+       <property name="text">
+        <string>Min</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Quad</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Max</string>
+       </property>
+      </item>
+     </widget>
+     <widget class="QComboBox" name="comboBox_BiasPoint_XQ">
+      <property name="geometry">
+       <rect>
+        <x>65</x>
+        <y>70</y>
+        <width>60</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>微软雅黑</family>
+        <pointsize>10</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <item>
+       <property name="text">
+        <string>Min</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Quad</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Max</string>
+       </property>
+      </item>
+     </widget>
+     <widget class="QComboBox" name="comboBox_BiasPoint_XP">
+      <property name="geometry">
+       <rect>
+        <x>65</x>
+        <y>110</y>
+        <width>60</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>微软雅黑</family>
+        <pointsize>10</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <item>
+       <property name="text">
+        <string>Quad</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Min</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Max</string>
+       </property>
+      </item>
+     </widget>
+     <widget class="QComboBox" name="comboBox_BiasPoint_YI">
+      <property name="geometry">
+       <rect>
+        <x>215</x>
+        <y>30</y>
+        <width>60</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>微软雅黑</family>
+        <pointsize>10</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <item>
+       <property name="text">
+        <string>Min</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Quad</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Max</string>
+       </property>
+      </item>
+     </widget>
+     <widget class="QComboBox" name="comboBox_BiasPoint_YQ">
+      <property name="geometry">
+       <rect>
+        <x>215</x>
+        <y>70</y>
+        <width>60</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>微软雅黑</family>
+        <pointsize>10</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <item>
+       <property name="text">
+        <string>Min</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Quad</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Max</string>
+       </property>
+      </item>
+     </widget>
+     <widget class="QComboBox" name="comboBox_BiasPoint_YP">
+      <property name="geometry">
+       <rect>
+        <x>215</x>
+        <y>110</y>
+        <width>60</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>微软雅黑</family>
+        <pointsize>10</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <item>
+       <property name="text">
+        <string>Quad</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Min</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Max</string>
+       </property>
+      </item>
+     </widget>
+    </widget>
+    <widget class="QGroupBox" name="groupBox_FindPoint">
+     <property name="geometry">
+      <rect>
+       <x>15</x>
+       <y>25</y>
+       <width>376</width>
+       <height>70</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>微软雅黑</family>
+       <pointsize>10</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">
+
+#groupBox_FindPoint
+{
+	border: 1px solid orange;
+
+    margin-top:4ex;
+	border-radius:5px;
+
+}
+#groupBox_FindPoint::title
+{
+	subcontrol-origin:margin;
+	color:blue;
+	left:10px;
+	margin-top:1.3ex;
+}
+</string>
+     </property>
+     <property name="title">
+      <string>FindPoint:</string>
+     </property>
+     <widget class="QCheckBox" name="Lock_All_Max_EN">
+      <property name="geometry">
+       <rect>
+        <x>15</x>
+        <y>30</y>
+        <width>125</width>
+        <height>25</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>微软雅黑</family>
+        <pointsize>10</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>@MaxMaxMax</string>
+      </property>
+      <property name="checked">
+       <bool>false</bool>
+      </property>
+     </widget>
+     <widget class="QCheckBox" name="Lock_NNQ_EN">
+      <property name="geometry">
+       <rect>
+        <x>145</x>
+        <y>30</y>
+        <width>125</width>
+        <height>25</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>微软雅黑</family>
+        <pointsize>10</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>@MinMinQuad</string>
+      </property>
+      <property name="checked">
+       <bool>false</bool>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="FindPoint">
+      <property name="geometry">
+       <rect>
+        <x>275</x>
+        <y>25</y>
+        <width>90</width>
+        <height>35</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>微软雅黑</family>
+        <pointsize>10</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>FindPiont</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QGroupBox" name="groupBox_CalibrateLocking">
+     <property name="geometry">
+      <rect>
+       <x>370</x>
+       <y>275</y>
+       <width>296</width>
+       <height>151</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>微软雅黑</family>
+       <pointsize>9</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">#groupBox_CalibrateLocking
+{
+	border: 1px solid orange;
+
+    margin-top:5ex;
+	border-radius:5px;
+
+}
+#groupBox_CalibrateLocking::title
+{
+	subcontrol-origin:margin;
+	color:blue;
+	left:10px;
+	margin-top:1.3ex;
+}</string>
+     </property>
+     <property name="title">
+      <string>CalibrateLocking:</string>
+     </property>
+     <widget class="QPushButton" name="EXPD_IQLockThreshold_Set">
+      <property name="geometry">
+       <rect>
+        <x>110</x>
+        <y>90</y>
+        <width>27</width>
+        <height>25</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>微软雅黑</family>
+        <pointsize>9</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Set</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Ph_Dither_25">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>65</y>
+        <width>136</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>微软雅黑</family>
+        <pointsize>9</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>LockingThreshold</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="EXPD_IQLockThreshold_Rd">
+      <property name="geometry">
+       <rect>
+        <x>85</x>
+        <y>90</y>
+        <width>25</width>
+        <height>25</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>微软雅黑</family>
+        <pointsize>9</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Rd</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="EXPD_IQLockThreshold">
+      <property name="geometry">
+       <rect>
+        <x>35</x>
+        <y>90</y>
+        <width>45</width>
+        <height>25</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>微软雅黑</family>
+        <pointsize>9</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="EXPD_IQLockPoint_RefVolt">
+      <property name="geometry">
+       <rect>
+        <x>155</x>
+        <y>30</y>
+        <width>55</width>
+        <height>24</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>微软雅黑</family>
+        <pointsize>9</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="EXPD_IQLockPoint_RefVolt_Rd">
+      <property name="geometry">
+       <rect>
+        <x>215</x>
+        <y>30</y>
+        <width>30</width>
+        <height>25</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>微软雅黑</family>
+        <pointsize>9</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Rd</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="EXPD_IQLockPoint_RefVolt_Set">
+      <property name="geometry">
+       <rect>
+        <x>245</x>
+        <y>30</y>
+        <width>30</width>
+        <height>25</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>微软雅黑</family>
+        <pointsize>9</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Set</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_192">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>30</y>
+        <width>136</width>
+        <height>25</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>微软雅黑</family>
+        <pointsize>10</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>AC_Signal DC_REF/V:</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_201">
+      <property name="geometry">
+       <rect>
+        <x>140</x>
+        <y>90</y>
+        <width>36</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>微软雅黑</family>
+        <pointsize>9</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>±mV</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QGroupBox" name="groupBox_BiasMode">
+     <property name="geometry">
+      <rect>
+       <x>410</x>
+       <y>25</y>
+       <width>251</width>
+       <height>71</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>微软雅黑</family>
+       <pointsize>9</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">#groupBox_BiasMode
+{
+	border: 2px solid orange;
+
+    margin-top:4ex;
+	border-radius:5px;
+
+}
+#groupBox_BiasMode::title
+{
+	subcontrol-origin:margin;
+	color:blue;
+	left:10px;
+	margin-top:1.3ex;
+}
+</string>
+     </property>
+     <property name="title">
+      <string>BiasMode</string>
+     </property>
+     <widget class="QCheckBox" name="BiasControl_PushPull_En">
+      <property name="geometry">
+       <rect>
+        <x>15</x>
+        <y>30</y>
+        <width>86</width>
+        <height>25</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>微软雅黑</family>
+        <pointsize>9</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Push_Pull</string>
+      </property>
+      <property name="checked">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QCheckBox" name="BiasControl_PushPull_En_2">
+      <property name="geometry">
+       <rect>
+        <x>115</x>
+        <y>30</y>
+        <width>66</width>
+        <height>25</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>微软雅黑</family>
+        <pointsize>9</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Parm</string>
+      </property>
+      <property name="checkable">
+       <bool>true</bool>
+      </property>
+      <property name="checked">
+       <bool>false</bool>
+      </property>
+     </widget>
+     <widget class="QCheckBox" name="BiasControl_PushPull_En_3">
+      <property name="geometry">
+       <rect>
+        <x>185</x>
+        <y>30</y>
+        <width>61</width>
+        <height>25</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>微软雅黑</family>
+        <pointsize>9</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Narm</string>
+      </property>
+      <property name="checkable">
+       <bool>true</bool>
+      </property>
+      <property name="checked">
+       <bool>false</bool>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_BiasVolt">
+    <property name="geometry">
+     <rect>
+      <x>25</x>
+      <y>30</y>
+      <width>386</width>
+      <height>66</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>微软雅黑</family>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#groupBox_BiasVolt
+{
+	border: 2px solid orange;
+
+    margin-top:3.3ex;
+	border-radius:5px;
+
+}
+#groupBox_BiasVolt::title
+{
+	subcontrol-origin:margin;
+	color:blue;
+	left:10px;
+}
+</string>
+    </property>
+    <property name="title">
+     <string>Heater BiasAmpVolt:</string>
+    </property>
+    <widget class="QRadioButton" name="EN_BiasAmp_Volt_6V5">
+     <property name="geometry">
+      <rect>
+       <x>160</x>
+       <y>25</y>
+       <width>60</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>微软雅黑</family>
+       <pointsize>10</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>6.5V</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="EN_BiasAmp_Volt_5V">
+     <property name="geometry">
+      <rect>
+       <x>110</x>
+       <y>25</y>
+       <width>50</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>微软雅黑</family>
+       <pointsize>10</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>5V</string>
+     </property>
+     <property name="checked">
+      <bool>true</bool>
+     </property>
+     <property name="autoExclusive">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_198">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>25</y>
+       <width>121</width>
+       <height>26</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>微软雅黑</family>
+       <pointsize>10</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>Vp+Vn=Volt :</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="HeaterVolt_display">
+     <property name="geometry">
+      <rect>
+       <x>225</x>
+       <y>10</y>
+       <width>141</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>微软雅黑</family>
+       <pointsize>10</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(255, 0, 0);</string>
+     </property>
+     <property name="text">
+      <string>Heater Vp/V=2*DA</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="HeaterVolt_display_2">
+     <property name="geometry">
+      <rect>
+       <x>225</x>
+       <y>30</y>
+       <width>151</width>
+       <height>36</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>微软雅黑</family>
+       <pointsize>10</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(255, 0, 0);</string>
+     </property>
+     <property name="text">
+      <string>Heater Vn/V=Volt-Vp</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QLabel" name="label_15">
+    <property name="geometry">
+     <rect>
+      <x>425</x>
+      <y>15</y>
+      <width>106</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>微软雅黑</family>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+      <kerning>true</kerning>
+     </font>
+    </property>
+    <property name="text">
+     <string>Bias_DA Limit：</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_17">
+    <property name="geometry">
+     <rect>
+      <x>500</x>
+      <y>40</y>
+      <width>16</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>微软雅黑</family>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+      <kerning>true</kerning>
+     </font>
+    </property>
+    <property name="text">
+     <string>V</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_18">
+    <property name="geometry">
+     <rect>
+      <x>425</x>
+      <y>40</y>
+      <width>41</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>微软雅黑</family>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+      <kerning>true</kerning>
+     </font>
+    </property>
+    <property name="text">
+     <string>Max:</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="DaVolt_Adjust_HeaterVCC_3">
+    <property name="geometry">
+     <rect>
+      <x>460</x>
+      <y>40</y>
+      <width>35</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>微软雅黑</family>
+      <pointsize>9</pointsize>
+      <weight>75</weight>
+      <italic>false</italic>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string>3.2</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_19">
+    <property name="geometry">
+     <rect>
+      <x>425</x>
+      <y>65</y>
+      <width>41</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>微软雅黑</family>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+      <kerning>true</kerning>
+     </font>
+    </property>
+    <property name="text">
+     <string>Min:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_20">
+    <property name="geometry">
+     <rect>
+      <x>500</x>
+      <y>65</y>
+      <width>16</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>微软雅黑</family>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+      <kerning>true</kerning>
+     </font>
+    </property>
+    <property name="text">
+     <string>V</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="DaVolt_Adjust_HeaterVCC_4">
+    <property name="geometry">
+     <rect>
+      <x>460</x>
+      <y>70</y>
+      <width>35</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>微软雅黑</family>
+      <pointsize>9</pointsize>
+      <weight>75</weight>
+      <italic>false</italic>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string>0.2</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Save_Settings_Locking">
+    <property name="geometry">
+     <rect>
+      <x>605</x>
+      <y>25</y>
+      <width>120</width>
+      <height>35</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>微软雅黑</family>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Save_Settings</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Recall_Settings_Locking">
+    <property name="geometry">
+     <rect>
+      <x>605</x>
+      <y>65</y>
+      <width>120</width>
+      <height>35</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>微软雅黑</family>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Recall_ Settings</string>
+    </property>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_LockingErr_Report">
+    <property name="geometry">
+     <rect>
+      <x>25</x>
+      <y>725</y>
+      <width>701</width>
+      <height>221</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>微软雅黑</family>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#groupBox_LockingErr_Report
+{
+	border: 1px solid orange;
+
+    margin-top:4ex;
+	border-radius:5px;
+
+}
+#groupBox_LockingErr_Report::title
+{
+	subcontrol-origin:margin;
+	color:blue;
+	left:10px;
+	margin-top:1.3ex;
+}
+</string>
+    </property>
+    <property name="title">
+     <string>LockingErr_Report</string>
+    </property>
+    <widget class="QPushButton" name="FirstDeri_YQ_Do">
+     <property name="geometry">
+      <rect>
+       <x>155</x>
+       <y>70</y>
+       <width>40</width>
+       <height>26</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>微软雅黑</family>
+       <pointsize>9</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>YQ</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="FirstDeri_XI_Do">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>40</y>
+       <width>40</width>
+       <height>26</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>微软雅黑</family>
+       <pointsize>9</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>XI</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="FirstDeri_XQ_Do">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>70</y>
+       <width>40</width>
+       <height>26</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>微软雅黑</family>
+       <pointsize>9</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>XQ</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="FirstDeri_YI_Do">
+     <property name="geometry">
+      <rect>
+       <x>155</x>
+       <y>40</y>
+       <width>40</width>
+       <height>26</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>微软雅黑</family>
+       <pointsize>9</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>YI</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="Ph_Dither_18">
+     <property name="geometry">
+      <rect>
+       <x>70</x>
+       <y>20</y>
+       <width>26</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>微软雅黑</family>
+       <pointsize>8</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>mV</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="FirstDeri_XI">
+     <property name="geometry">
+      <rect>
+       <x>55</x>
+       <y>40</y>
+       <width>45</width>
+       <height>24</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>微软雅黑</family>
+       <pointsize>8</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="CH2_FirstDeri">
+     <property name="geometry">
+      <rect>
+       <x>55</x>
+       <y>70</y>
+       <width>45</width>
+       <height>24</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>微软雅黑</family>
+       <pointsize>8</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="CH3_FirstDeri">
+     <property name="geometry">
+      <rect>
+       <x>200</x>
+       <y>40</y>
+       <width>45</width>
+       <height>24</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>微软雅黑</family>
+       <pointsize>8</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="CH4_FirstDeri">
+     <property name="geometry">
+      <rect>
+       <x>200</x>
+       <y>70</y>
+       <width>45</width>
+       <height>24</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>微软雅黑</family>
+       <pointsize>8</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="CH2_FirstDeri_Rd">
+     <property name="geometry">
+      <rect>
+       <x>105</x>
+       <y>70</y>
+       <width>30</width>
+       <height>26</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>微软雅黑</family>
+       <pointsize>10</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>Rd</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="FirstDeri_XI_Rd">
+     <property name="geometry">
+      <rect>
+       <x>105</x>
+       <y>40</y>
+       <width>30</width>
+       <height>26</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>微软雅黑</family>
+       <pointsize>10</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>Rd</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="YQ_FirstDeri_Rd">
+     <property name="geometry">
+      <rect>
+       <x>250</x>
+       <y>70</y>
+       <width>30</width>
+       <height>26</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>微软雅黑</family>
+       <pointsize>10</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>Rd</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="CH3_FirstDeri_Rd">
+     <property name="geometry">
+      <rect>
+       <x>250</x>
+       <y>43</y>
+       <width>30</width>
+       <height>26</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>微软雅黑</family>
+       <pointsize>10</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>Rd</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="Ph_Dither_21">
+     <property name="geometry">
+      <rect>
+       <x>240</x>
+       <y>15</y>
+       <width>71</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>微软雅黑</family>
+       <pointsize>8</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="CH2_FirstDeri_2">
+     <property name="geometry">
+      <rect>
+       <x>55</x>
+       <y>100</y>
+       <width>45</width>
+       <height>24</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>微软雅黑</family>
+       <pointsize>8</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="FirstDeri_XQ_Do_2">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>100</y>
+       <width>40</width>
+       <height>26</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>微软雅黑</family>
+       <pointsize>9</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>XP</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="CH2_FirstDeri_Rd_2">
+     <property name="geometry">
+      <rect>
+       <x>105</x>
+       <y>100</y>
+       <width>30</width>
+       <height>26</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>微软雅黑</family>
+       <pointsize>10</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>Rd</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="FirstDeri_YQ_Do_2">
+     <property name="geometry">
+      <rect>
+       <x>155</x>
+       <y>100</y>
+       <width>40</width>
+       <height>26</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>微软雅黑</family>
+       <pointsize>9</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>YQ</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="YQ_FirstDeri_Rd_2">
+     <property name="geometry">
+      <rect>
+       <x>250</x>
+       <y>100</y>
+       <width>30</width>
+       <height>26</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>微软雅黑</family>
+       <pointsize>10</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>Rd</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="CH4_FirstDeri_2">
+     <property name="geometry">
+      <rect>
+       <x>200</x>
+       <y>100</y>
+       <width>45</width>
+       <height>24</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>微软雅黑</family>
+       <pointsize>8</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+    </widget>
+    <widget class="QLabel" name="Ph_Dither_23">
+     <property name="geometry">
+      <rect>
+       <x>215</x>
+       <y>20</y>
+       <width>26</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>微软雅黑</family>
+       <pointsize>8</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>mV</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QPushButton" name="Rd_P22">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>810</y>
+     <width>150</width>
+     <height>35</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>微软雅黑</family>
+     <pointsize>10</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Rd_P22</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Nosie_Analysis">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>845</y>
+     <width>150</width>
+     <height>35</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>微软雅黑</family>
+     <pointsize>10</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Nosie_Analysis</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="NNQ_ScanResult">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>915</y>
+     <width>150</width>
+     <height>35</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>微软雅黑</family>
+     <pointsize>10</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>NNQ_ScanResult</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="All_Max_ScanResult">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>950</y>
+     <width>150</width>
+     <height>35</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>微软雅黑</family>
+     <pointsize>10</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>All_Max_ScanResult</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="FFT_Analysis">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>880</y>
+     <width>150</width>
+     <height>35</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>微软雅黑</family>
+     <pointsize>10</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>FFT_Analysis</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="En_AutoSave_TxT">
+   <property name="geometry">
+    <rect>
+     <x>155</x>
+     <y>960</y>
+     <width>125</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>微软雅黑</family>
+     <pointsize>10</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>AutoSave TxT</string>
+   </property>
+   <property name="checked">
+    <bool>false</bool>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

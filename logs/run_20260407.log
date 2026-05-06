@@ -1,0 +1,474 @@
+[08:46:34] INFO : Connecting to COM38 with: {'port': 'COM38', 'baud': '115200', 'data_bits': '8', 'parity': 'None', 'stop_bits': '1', 'flow': 'None'}
+[08:46:34] INFO : SerialPort Connected COM38@115200
+[08:46:36] INFO : 更新功耗报告 (Requesting Power ADC)...
+[08:46:36] INFO : >> TX: STM:ADC power
+[08:46:36] INFO : << RX Get
+ACK:ADC POWER
+[08:46:36] INFO : Power Calc: 3.443W (VCC:3.64V, VDR:3.02V)
+[08:46:45] INFO : 更新功耗报告 (Requesting Power ADC)...
+[08:46:45] INFO : >> TX: STM:ADC power
+[08:46:45] INFO : << RX Get
+ACK:ADC POWER
+[08:46:45] INFO : Power Calc: 3.441W (VCC:3.64V, VDR:3.02V)
+[08:47:00] INFO : Reading DAC Channel 3...
+[08:47:00] INFO : >> TX: STM:DAC 3
+[08:47:00] INFO : Read DAC Ch1: Code 1489 -> 1.2V
+[08:47:00] INFO : Read DAC Ch2: Code 100 -> 0.1V
+[08:47:00] INFO : Read DAC Ch3: Code 3200 -> 2.6V
+[08:47:00] INFO : << RX Get
+ACK:DAC 1=1489 2=100 3=3200
+[08:47:02] INFO : Reading DAC Channel 1...
+[08:47:02] INFO : >> TX: STM:DAC 1
+[08:47:02] INFO : Read DAC Ch1: Code 1489 -> 1.2V
+[08:47:02] INFO : Read DAC Ch2: Code 100 -> 0.1V
+[08:47:02] INFO : Read DAC Ch3: Code 3200 -> 2.6V
+[08:47:02] INFO : << RX Get
+ACK:DAC 1=1489 2=100 3=3200
+[08:47:03] INFO : Reading DAC Channel 2...
+[08:47:03] INFO : >> TX: STM:DAC 2
+[08:47:03] INFO : Read DAC Ch1: Code 1489 -> 1.2V
+[08:47:03] INFO : Read DAC Ch2: Code 100 -> 0.1V
+[08:47:03] INFO : Read DAC Ch3: Code 3200 -> 2.6V
+[08:47:03] INFO : << RX Get
+ACK:DAC 1=1489 2=100 3=3200
+[08:47:07] INFO : Set STM DAC Ch2: 0.200V -> Code 248
+[08:47:07] INFO : >> TX: STM:DAC 2 248
+[08:47:07] INFO : << RX Get
+ACK:DAC 2 248
+[08:47:08] INFO : Set STM DAC Ch3: 2.600V -> Code 3226
+[08:47:08] INFO : >> TX: STM:DAC 3 3226
+[08:47:08] INFO : << RX Get
+ACK:DAC 3 3226
+[08:47:09] INFO : === 开始上电流程 ===
+[08:47:09] INFO : Set STM DAC Ch1: 1.200V -> Code 1489
+[08:47:09] INFO : Set STM DAC Ch2: 0.200V -> Code 248
+[08:47:09] INFO : Set STM DAC Ch3: 2.600V -> Code 3226
+[08:47:09] INFO : 等待电源稳定 (1s)...
+[08:47:09] INFO : >> TX: STM:DAC 1 1489
+[08:47:09] INFO : << RX Get
+ACK:DAC 1 1489
+[08:47:09] INFO : >> TX: STM:DAC 2 248
+[08:47:09] INFO : << RX Get
+ACK:DAC 2 248
+[08:47:09] INFO : >> TX: STM:DAC 3 3226
+[08:47:09] INFO : << RX Get
+ACK:DAC 3 3226
+[08:47:09] INFO : >> TX: STM:power ALL ON
+[08:47:09] INFO : << RX Get
+ACK:POWER ALL ON
+[08:47:10] INFO : >> TX: STM:ADC power
+[08:47:10] INFO : << RX Get
+ACK:ADC POWER
+[08:47:10] INFO : Power Calc: 3.309W (VCC:3.52V, VDR:3.00V)
+[08:47:10] ERROR: >>> 上电异常/Power-on error <<<
+[08:47:16] INFO : 更新功耗报告 (Requesting Power ADC)...
+[08:47:16] INFO : >> TX: STM:ADC power
+[08:47:16] INFO : << RX Get
+ACK:ADC POWER
+[08:47:16] INFO : Power Calc: 3.309W (VCC:3.52V, VDR:3.00V)
+[08:47:24] ERROR: Serial Error: Critical: 拒绝访问。
+[08:47:24] WARNING: SerialPort Dropped: 拒绝访问。
+[08:47:30] INFO : Connecting to COM38 with: {'port': 'COM38', 'baud': '115200', 'data_bits': '8', 'parity': 'None', 'stop_bits': '1', 'flow': 'None'}
+[08:47:30] INFO : SerialPort Connected COM38@115200
+[08:47:32] INFO : Reading DAC Channel 1...
+[08:47:32] INFO : >> TX: STM:DAC 1
+[08:47:32] INFO : Read DAC Ch1: Code 1489 -> 1.2V
+[08:47:32] INFO : Read DAC Ch2: Code 496 -> 0.4V
+[08:47:32] INFO : Read DAC Ch3: Code 2482 -> 2.0V
+[08:47:32] INFO : << RX Get
+ACK:DAC 1=1489 2=496 3=2482
+[08:47:33] INFO : Reading DAC Channel 2...
+[08:47:33] INFO : >> TX: STM:DAC 2
+[08:47:33] INFO : Read DAC Ch1: Code 1489 -> 1.2V
+[08:47:33] INFO : Read DAC Ch2: Code 496 -> 0.4V
+[08:47:33] INFO : Read DAC Ch3: Code 2482 -> 2.0V
+[08:47:33] INFO : << RX Get
+ACK:DAC 1=1489 2=496 3=2482
+[08:47:34] INFO : Reading DAC Channel 3...
+[08:47:34] INFO : >> TX: STM:DAC 3
+[08:47:34] INFO : Read DAC Ch1: Code 1489 -> 1.2V
+[08:47:34] INFO : Read DAC Ch2: Code 496 -> 0.4V
+[08:47:34] INFO : Read DAC Ch3: Code 2482 -> 2.0V
+[08:47:34] INFO : << RX Get
+ACK:DAC 1=1489 2=496 3=2482
+[08:47:45] INFO : Set STM DAC Ch3: 3.000V -> Code 3722
+[08:47:45] INFO : >> TX: STM:DAC 3 3722
+[08:47:45] INFO : << RX Get
+ACK:DAC 3 3722
+[08:47:46] INFO : Reading DAC Channel 3...
+[08:47:46] INFO : >> TX: STM:DAC 3
+[08:47:46] INFO : Read DAC Ch1: Code 1489 -> 1.2V
+[08:47:46] INFO : Read DAC Ch2: Code 496 -> 0.4V
+[08:47:46] INFO : Read DAC Ch3: Code 3722 -> 3.0V
+[08:47:46] INFO : << RX Get
+ACK:DAC 1=1489 2=496 3=3722
+[08:47:46] INFO : Reading DAC Channel 2...
+[08:47:46] INFO : >> TX: STM:DAC 2
+[08:47:46] INFO : Read DAC Ch1: Code 1489 -> 1.2V
+[08:47:46] INFO : Read DAC Ch2: Code 496 -> 0.4V
+[08:47:46] INFO : Read DAC Ch3: Code 3722 -> 3.0V
+[08:47:46] INFO : << RX Get
+ACK:DAC 1=1489 2=496 3=3722
+[08:47:49] INFO : Set STM DAC Ch2: 0.200V -> Code 248
+[08:47:49] INFO : >> TX: STM:DAC 2 248
+[08:47:49] INFO : << RX Get
+ACK:DAC 2 248
+[08:47:50] INFO : === 开始上电流程 ===
+[08:47:50] INFO : Set STM DAC Ch1: 1.200V -> Code 1489
+[08:47:50] INFO : Set STM DAC Ch2: 0.200V -> Code 248
+[08:47:50] INFO : Set STM DAC Ch3: 3.000V -> Code 3722
+[08:47:50] INFO : 等待电源稳定 (1s)...
+[08:47:50] INFO : >> TX: STM:DAC 1 1489
+[08:47:50] INFO : << RX Get
+ACK:DAC 1 1489
+[08:47:51] INFO : >> TX: STM:DAC 2 248
+[08:47:51] INFO : << RX Get
+ACK:DAC 2 248
+[08:47:51] INFO : >> TX: STM:DAC 3 3722
+[08:47:51] INFO : << RX Get
+ACK:DAC 3 3722
+[08:47:51] INFO : >> TX: STM:power ALL ON
+[08:47:51] INFO : << RX Get
+ACK:POWER ALL ON
+[08:47:51] INFO : >> TX: STM:ADC power
+[08:47:51] INFO : << RX Get
+ACK:ADC POWER
+[08:47:52] INFO : Power Calc: 3.141W (VCC:3.52V, VDR:2.59V)
+[08:47:52] ERROR: >>> 上电异常/Power-on error <<<
+[08:47:58] INFO : Set STM DAC Ch3: 2.500V -> Code 3102
+[08:47:58] INFO : >> TX: STM:DAC 3 3102
+[08:47:58] INFO : << RX Get
+ACK:DAC 3 3102
+[08:47:59] INFO : Reading DAC Channel 3...
+[08:47:59] INFO : >> TX: STM:DAC 3
+[08:47:59] INFO : Read DAC Ch1: Code 1489 -> 1.2V
+[08:47:59] INFO : Read DAC Ch2: Code 248 -> 0.2V
+[08:47:59] INFO : Read DAC Ch3: Code 3102 -> 2.5V
+[08:47:59] INFO : << RX Get
+ACK:DAC 1=1489 2=248 3=3102
+[08:47:59] INFO : Reading DAC Channel 2...
+[08:47:59] INFO : >> TX: STM:DAC 2
+[08:47:59] INFO : Read DAC Ch1: Code 1489 -> 1.2V
+[08:47:59] INFO : Read DAC Ch2: Code 248 -> 0.2V
+[08:47:59] INFO : Read DAC Ch3: Code 3102 -> 2.5V
+[08:47:59] INFO : << RX Get
+ACK:DAC 1=1489 2=248 3=3102
+[08:48:00] INFO : Reading DAC Channel 1...
+[08:48:00] INFO : >> TX: STM:DAC 1
+[08:48:00] INFO : Read DAC Ch1: Code 1489 -> 1.2V
+[08:48:00] INFO : Read DAC Ch2: Code 248 -> 0.2V
+[08:48:00] INFO : Read DAC Ch3: Code 3102 -> 2.5V
+[08:48:00] INFO : << RX Get
+ACK:DAC 1=1489 2=248 3=3102
+[08:48:01] INFO : === 开始上电流程 ===
+[08:48:01] INFO : Set STM DAC Ch1: 1.200V -> Code 1489
+[08:48:01] INFO : Set STM DAC Ch2: 0.200V -> Code 248
+[08:48:01] INFO : Set STM DAC Ch3: 2.500V -> Code 3102
+[08:48:01] INFO : 等待电源稳定 (1s)...
+[08:48:01] INFO : >> TX: STM:DAC 1 1489
+[08:48:01] INFO : << RX Get
+ACK:DAC 1 1489
+[08:48:01] INFO : >> TX: STM:DAC 2 248
+[08:48:01] INFO : << RX Get
+ACK:DAC 2 248
+[08:48:01] INFO : >> TX: STM:DAC 3 3102
+[08:48:01] INFO : << RX Get
+ACK:DAC 3 3102
+[08:48:01] INFO : >> TX: STM:power ALL ON
+[08:48:02] INFO : << RX Get
+ACK:POWER ALL ON
+[08:48:02] INFO : >> TX: STM:ADC power
+[08:48:02] INFO : << RX Get
+ACK:ADC POWER
+[08:48:02] INFO : Power Calc: 3.344W (VCC:3.52V, VDR:3.10V)
+[08:48:02] ERROR: >>> 上电异常/Power-on error <<<
+[08:48:07] INFO : 更新功耗报告 (Requesting Power ADC)...
+[08:48:07] INFO : >> TX: STM:ADC power
+[08:48:07] INFO : << RX Get
+ACK:ADC POWER
+[08:48:07] INFO : Power Calc: 3.347W (VCC:3.52V, VDR:3.10V)
+[08:48:30] INFO : Reading DAC Channel 3...
+[08:48:30] INFO : >> TX: STM:DAC 3
+[08:48:30] INFO : Read DAC Ch1: Code 1489 -> 1.2V
+[08:48:30] INFO : Read DAC Ch2: Code 248 -> 0.2V
+[08:48:30] INFO : Read DAC Ch3: Code 3102 -> 2.5V
+[08:48:30] INFO : << RX Get
+ACK:DAC 1=1489 2=248 3=3102
+[08:48:31] INFO : Reading DAC Channel 2...
+[08:48:31] INFO : >> TX: STM:DAC 2
+[08:48:31] INFO : Read DAC Ch1: Code 1489 -> 1.2V
+[08:48:31] INFO : Read DAC Ch2: Code 248 -> 0.2V
+[08:48:31] INFO : Read DAC Ch3: Code 3102 -> 2.5V
+[08:48:31] INFO : << RX Get
+ACK:DAC 1=1489 2=248 3=3102
+[08:48:37] INFO : 更新功耗报告 (Requesting Power ADC)...
+[08:48:37] INFO : >> TX: STM:ADC power
+[08:48:37] INFO : << RX Get
+ACK:ADC POWER
+[08:48:37] INFO : Power Calc: 3.351W (VCC:3.52V, VDR:3.10V)
+[08:51:15] INFO : 更新功耗报告 (Requesting Power ADC)...
+[08:51:15] INFO : >> TX: STM:ADC power
+[08:51:15] INFO : << RX Get
+ACK:ADC POWER
+[08:51:15] INFO : Power Calc: 3.358W (VCC:3.52V, VDR:3.10V)
+[08:51:30] INFO : Reading DAC Channel 3...
+[08:51:30] INFO : >> TX: STM:DAC 3
+[08:51:30] INFO : Read DAC Ch1: Code 1489 -> 1.2V
+[08:51:30] INFO : Read DAC Ch2: Code 248 -> 0.2V
+[08:51:30] INFO : Read DAC Ch3: Code 3102 -> 2.5V
+[08:51:30] INFO : << RX Get
+ACK:DAC 1=1489 2=248 3=3102
+[08:51:31] INFO : Reading DAC Channel 2...
+[08:51:31] INFO : >> TX: STM:DAC 2
+[08:51:31] INFO : Read DAC Ch1: Code 1489 -> 1.2V
+[08:51:31] INFO : Read DAC Ch2: Code 248 -> 0.2V
+[08:51:31] INFO : Read DAC Ch3: Code 3102 -> 2.5V
+[08:51:31] INFO : << RX Get
+ACK:DAC 1=1489 2=248 3=3102
+[08:51:35] INFO : Reading DAC Channel 2...
+[08:51:35] INFO : >> TX: STM:DAC 2
+[08:51:35] INFO : Read DAC Ch1: Code 1489 -> 1.2V
+[08:51:35] INFO : Read DAC Ch2: Code 248 -> 0.2V
+[08:51:35] INFO : Read DAC Ch3: Code 3102 -> 2.5V
+[08:51:35] INFO : << RX Get
+ACK:DAC 1=1489 2=248 3=3102
+[08:51:53] INFO : Reading DAC Channel 3...
+[08:51:53] INFO : >> TX: STM:DAC 3
+[08:51:53] INFO : Read DAC Ch1: Code 1489 -> 1.2V
+[08:51:53] INFO : Read DAC Ch2: Code 248 -> 0.2V
+[08:51:53] INFO : Read DAC Ch3: Code 3102 -> 2.5V
+[08:51:53] INFO : << RX Get
+ACK:DAC 1=1489 2=248 3=3102
+[08:51:54] INFO : Reading DAC Channel 2...
+[08:51:54] INFO : >> TX: STM:DAC 2
+[08:51:54] INFO : Read DAC Ch1: Code 1489 -> 1.2V
+[08:51:54] INFO : Read DAC Ch2: Code 248 -> 0.2V
+[08:51:54] INFO : Read DAC Ch3: Code 3102 -> 2.5V
+[08:51:54] INFO : << RX Get
+ACK:DAC 1=1489 2=248 3=3102
+[08:51:57] INFO : === 开始上电流程 ===
+[08:51:57] INFO : Set STM DAC Ch1: 1.200V -> Code 1489
+[08:51:57] INFO : Set STM DAC Ch2: 0.200V -> Code 248
+[08:51:57] INFO : Set STM DAC Ch3: 2.500V -> Code 3102
+[08:51:57] INFO : 等待电源稳定 (1s)...
+[08:51:57] INFO : >> TX: STM:DAC 1 1489
+[08:51:57] INFO : << RX Get
+ACK:DAC 1 1489
+[08:51:57] INFO : >> TX: STM:DAC 2 248
+[08:51:57] INFO : << RX Get
+ACK:DAC 2 248
+[08:51:57] INFO : >> TX: STM:DAC 3 3102
+[08:51:57] INFO : << RX Get
+ACK:DAC 3 3102
+[08:51:57] INFO : >> TX: STM:power ALL ON
+[08:51:57] INFO : << RX Get
+ACK:POWER ALL ON
+[08:51:58] INFO : >> TX: STM:ADC power
+[08:51:58] INFO : << RX Get
+ACK:ADC POWER
+[08:51:58] INFO : Power Calc: 3.356W (VCC:3.52V, VDR:3.10V)
+[08:51:58] ERROR: >>> 上电异常/Power-on error <<<
+[08:53:05] INFO : 更新功耗报告 (Requesting Power ADC)...
+[08:53:05] INFO : >> TX: STM:ADC power
+[08:53:05] INFO : << RX Get
+ACK:ADC POWER
+[08:53:05] INFO : Power Calc: 3.357W (VCC:3.52V, VDR:3.10V)
+[08:53:13] INFO : Reading DAC Channel 3...
+[08:53:13] INFO : >> TX: STM:DAC 3
+[08:53:13] INFO : Read DAC Ch1: Code 1489 -> 1.2V
+[08:53:13] INFO : Read DAC Ch2: Code 248 -> 0.2V
+[08:53:13] INFO : Read DAC Ch3: Code 3102 -> 2.5V
+[08:53:13] INFO : << RX Get
+ACK:DAC 1=1489 2=248 3=3102
+[08:57:20] INFO : Connecting to COM38 with: {'port': 'COM38', 'baud': '115200', 'data_bits': '8', 'parity': 'None', 'stop_bits': '1', 'flow': 'None'}
+[08:57:20] INFO : SerialPort Connected COM38@115200
+[08:57:22] INFO : 更新功耗报告 (Requesting Power ADC)...
+[08:57:22] INFO : >> TX: STM:ADC power
+[08:57:22] INFO : << RX Get
+ACK:ADC POWER
+[08:57:22] INFO : Power Calc: 0.007W (VCC:3.52V, VDR:3.10V)
+[08:58:48] INFO : Connecting to COM38 with: {'port': 'COM38', 'baud': '115200', 'data_bits': '8', 'parity': 'None', 'stop_bits': '1', 'flow': 'None'}
+[08:58:48] INFO : SerialPort Connected COM38@115200
+[08:58:50] INFO : 更新功耗报告 (Requesting Power ADC)...
+[08:58:50] INFO : >> TX: STM:ADC power
+[08:58:50] INFO : << RX Get
+ACK:ADC POWER
+[08:58:50] INFO : Power Calc: 74.649W (VCC:3.52V, VDR:3.10V)
+[08:59:19] INFO : Connecting to COM38 with: {'port': 'COM38', 'baud': '115200', 'data_bits': '8', 'parity': 'None', 'stop_bits': '1', 'flow': 'None'}
+[08:59:19] INFO : SerialPort Connected COM38@115200
+[08:59:22] INFO : 更新功耗报告 (Requesting Power ADC)...
+[08:59:22] INFO : >> TX: STM:ADC power
+[08:59:22] INFO : << RX Get
+ACK:ADC POWER
+[08:59:22] INFO : Power Calc: 1.493W (VCC:3.52V, VDR:3.10V)
+[08:59:24] INFO : 更新功耗报告 (Requesting Power ADC)...
+[08:59:24] INFO : >> TX: STM:ADC power
+[08:59:24] INFO : << RX Get
+ACK:ADC POWER
+[08:59:24] INFO : Power Calc: 1.493W (VCC:3.52V, VDR:3.10V)
+[09:00:21] INFO : Connecting to COM38 with: {'port': 'COM38', 'baud': '115200', 'data_bits': '8', 'parity': 'None', 'stop_bits': '1', 'flow': 'None'}
+[09:00:21] INFO : SerialPort Connected COM38@115200
+[09:00:24] INFO : 更新功耗报告 (Requesting Power ADC)...
+[09:00:24] INFO : >> TX: STM:ADC power
+[09:00:24] INFO : << RX Get
+ACK:ADC POWER
+[09:00:24] INFO : Power Calc: 3.360W (VCC:3.52V, VDR:3.10V)
+[09:02:25] INFO : Connecting to COM38 with: {'port': 'COM38', 'baud': '115200', 'data_bits': '8', 'parity': 'None', 'stop_bits': '1', 'flow': 'None'}
+[09:02:25] INFO : SerialPort Connected COM38@115200
+[09:02:27] INFO : 更新功耗报告 (Requesting Power ADC)...
+[09:02:27] INFO : >> TX: STM:ADC power
+[09:02:27] INFO : << RX Get
+ACK:ADC POWER
+[09:02:28] INFO : Power Calc: 3.359W (VCC:3.52V, VDR:3.10V)
+[09:02:29] INFO : 更新功耗报告 (Requesting Power ADC)...
+[09:02:29] INFO : >> TX: STM:ADC power
+[09:02:29] INFO : << RX Get
+ACK:ADC POWER
+[09:02:29] INFO : Power Calc: 3.358W (VCC:3.52V, VDR:3.10V)
+[09:05:31] INFO : 更新功耗报告 (Requesting Power ADC)...
+[09:05:31] INFO : >> TX: STM:ADC power
+[09:05:31] INFO : << RX Get
+ACK:ADC POWER
+[09:05:52] INFO : Power Calc: 3.359W (VCC:3.52V, VDR:3.10V)
+[09:06:21] INFO : Connecting to COM38 with: {'port': 'COM38', 'baud': '115200', 'data_bits': '8', 'parity': 'None', 'stop_bits': '1', 'flow': 'None'}
+[09:06:21] INFO : SerialPort Connected COM38@115200
+[09:06:23] INFO : 更新功耗报告 (Requesting Power ADC)...
+[09:06:23] INFO : >> TX: STM:ADC power
+[09:06:23] INFO : << RX Get
+ACK:ADC POWER
+[09:06:23] INFO : Power Calc: 3.359W (VCC:3.52V, VDR:3.10V)
+[09:09:39] INFO : Requesting ALL ADC Data (STM:ADC ALL)...
+[09:09:39] INFO : >> TX: STM:ADC ALL
+[09:09:39] INFO : << RX Get
+ACK:ADC ALL
+[09:19:37] ERROR: Serial Error: Critical: 拒绝访问。
+[09:19:37] WARNING: SerialPort Dropped: 拒绝访问。
+[11:59:48] INFO : Connecting to COM38 with: {'port': 'COM38', 'baud': '115200', 'data_bits': '8', 'parity': 'None', 'stop_bits': '1', 'flow': 'None'}
+[11:59:48] WARNING: SerialPort Open Fail: 拒绝访问。
+[11:59:53] INFO : Connecting to COM38 with: {'port': 'COM38', 'baud': '115200', 'data_bits': '8', 'parity': 'None', 'stop_bits': '1', 'flow': 'None'}
+[11:59:53] INFO : SerialPort Connected COM38@115200
+[11:59:54] INFO : Requesting 6-Channel NNQ Data...
+[11:59:54] INFO : >> TX: 410:EXPORT_NNQ
+[11:59:54] INFO : << RX Get
+ACK: Exporting NNQ Data...
+[11:59:55] INFO : Bulk Data [NNQ] Received! Processing...
+[12:01:52] INFO : Disconnecting...
+[12:01:52] WARNING: SerialPort Disconnected by User
+[12:04:27] INFO : Connecting to COM38 with: {'port': 'COM38', 'baud': '115200', 'data_bits': '8', 'parity': 'None', 'stop_bits': '1', 'flow': 'None'}
+[12:04:27] INFO : SerialPort Connected COM38@115200
+[12:04:43] INFO : >> TX: 410:START_SCAN nnq
+[12:04:43] INFO : << RX Get
+ACK: Scan NNQ Started
+[12:06:29] INFO : Requesting 6-Channel NNQ Data...
+[12:06:29] INFO : >> TX: 410:EXPORT_NNQ
+[12:06:29] INFO : << RX Get
+ACK: Exporting NNQ Data...
+[12:06:30] INFO : Bulk Data [NNQ] Received! Processing...
+[12:06:46] INFO : Disconnecting...
+[12:06:46] WARNING: SerialPort Disconnected by User
+[12:10:43] INFO : Connecting to COM38 with: {'port': 'COM38', 'baud': '115200', 'data_bits': '8', 'parity': 'None', 'stop_bits': '1', 'flow': 'None'}
+[12:10:43] INFO : SerialPort Connected COM38@115200
+[12:10:44] INFO : Requesting 6-Channel NNQ Data...
+[12:10:44] INFO : >> TX: 410:EXPORT_NNQ
+[12:10:44] INFO : << RX Get
+ACK: Exporting NNQ Data...
+[12:10:44] INFO : Bulk Data [NNQ] Received! Processing...
+[12:16:04] INFO : >> TX: 410:START_SCAN NNQ
+[12:16:04] INFO : << RX Get
+ACK: Scan NNQ Started
+[12:22:42] INFO : Requesting 6-Channel NNQ Data...
+[12:22:42] INFO : >> TX: 410:EXPORT_NNQ
+[12:22:42] INFO : << RX Get
+ACK: Exporting NNQ Data...
+[12:22:42] INFO : Bulk Data [NNQ] Received! Processing...
+[12:32:34] INFO : Connecting to COM38 with: {'port': 'COM38', 'baud': '115200', 'data_bits': '8', 'parity': 'None', 'stop_bits': '1', 'flow': 'None'}
+[12:32:35] INFO : SerialPort Connected COM38@115200
+[12:32:35] INFO : Requesting 6-Channel NNQ Data...
+[12:32:35] INFO : >> TX: 410:EXPORT_NNQ
+[12:32:35] INFO : << RX Get
+ACK: Exporting NNQ Data...
+[12:32:36] INFO : Bulk Data [NNQ] Received! Processing...
+[12:32:47] INFO : Disconnecting...
+[12:32:47] WARNING: SerialPort Disconnected by User
+[12:32:48] INFO : Connecting to COM38 with: {'port': 'COM38', 'baud': '115200', 'data_bits': '8', 'parity': 'None', 'stop_bits': '1', 'flow': 'None'}
+[12:32:48] INFO : SerialPort Connected COM38@115200
+[12:32:57] INFO : >> TX: 410:START_SCAN NNQ
+[12:32:57] INFO : << RX Get
+ACK: Scan NNQ Started
+[12:33:28] INFO : Requesting 6-Channel NNQ Data...
+[12:33:28] INFO : >> TX: 410:EXPORT_NNQ
+[12:33:28] INFO : << RX Get
+ACK: Exporting NNQ Data...
+[12:33:29] INFO : Bulk Data [NNQ] Received! Processing...
+[12:33:58] INFO : Requesting 6-Channel NNQ Data...
+[12:33:58] INFO : >> TX: 410:EXPORT_NNQ
+[12:33:58] INFO : << RX Get
+ACK: Exporting NNQ Data...
+[12:33:58] INFO : Bulk Data [NNQ] Received! Processing...
+[12:38:08] INFO : >> TX: 410:START_SCAN NNQ
+[12:38:08] INFO : << RX Get
+ACK: Scan NNQ Started
+[12:40:01] INFO : Disconnecting...
+[12:40:01] WARNING: SerialPort Disconnected by User
+[13:12:29] INFO : Connecting to COM38 with: {'port': 'COM38', 'baud': '115200', 'data_bits': '8', 'parity': 'None', 'stop_bits': '1', 'flow': 'None'}
+[13:12:29] INFO : SerialPort Connected COM38@115200
+[13:12:33] INFO : Requesting 6-Channel NNQ Data...
+[13:12:33] INFO : >> TX: 410:EXPORT_NNQ
+[13:12:33] INFO : << RX Get
+ACK: Exporting NNQ Data...
+[13:12:34] INFO : Bulk Data [NNQ] Received! Processing...
+[13:13:17] INFO : Disconnecting...
+[13:13:17] WARNING: SerialPort Disconnected by User
+[13:31:59] INFO : Connecting to COM38 with: {'port': 'COM38', 'baud': '115200', 'data_bits': '8', 'parity': 'None', 'stop_bits': '1', 'flow': 'None'}
+[13:32:00] WARNING: SerialPort Open Fail: 拒绝访问。
+[13:36:27] INFO : Connecting to COM38 with: {'port': 'COM38', 'baud': '115200', 'data_bits': '8', 'parity': 'None', 'stop_bits': '1', 'flow': 'None'}
+[13:36:27] INFO : SerialPort Connected COM38@115200
+[13:36:28] INFO : Requesting 6-Channel NNQ Data...
+[13:36:28] INFO : >> TX: 410:EXPORT_NNQ
+[13:36:28] INFO : << RX Get
+ACK: Exporting NNQ Data...
+[13:36:28] INFO : Bulk Data [NNQ] Received! Processing...
+[13:36:37] INFO : Disconnecting...
+[13:36:37] WARNING: SerialPort Disconnected by User
+[13:47:48] INFO : Connecting to COM38 with: {'port': 'COM38', 'baud': '115200', 'data_bits': '8', 'parity': 'None', 'stop_bits': '1', 'flow': 'None'}
+[13:47:48] INFO : SerialPort Connected COM38@115200
+[13:47:49] INFO : Requesting 6-Channel NNQ Data...
+[13:47:49] INFO : >> TX: 410:EXPORT_NNQ
+[13:47:49] INFO : << RX Get
+ACK: Exporting NNQ Data...
+[13:47:50] INFO : Bulk Data [NNQ] Received! Processing...
+[13:57:16] INFO : Connecting to COM38 with: {'port': 'COM38', 'baud': '115200', 'data_bits': '8', 'parity': 'None', 'stop_bits': '1', 'flow': 'None'}
+[13:57:16] INFO : SerialPort Connected COM38@115200
+[13:57:17] INFO : Requesting 6-Channel NNQ Data...
+[13:57:17] INFO : >> TX: 410:EXPORT_NNQ
+[13:57:17] INFO : << RX Get
+ACK: Exporting NNQ Data...
+[13:57:17] INFO : Bulk Data [NNQ] Received! Processing...
+[13:57:39] INFO : >> TX: 410:START_SCAN NNQ
+[13:57:39] INFO : << RX Get
+ACK: Scan NNQ Started
+[13:58:48] INFO : Requesting 6-Channel NNQ Data...
+[13:58:48] INFO : >> TX: 410:EXPORT_NNQ
+[13:58:48] INFO : << RX Get
+ACK: Exporting NNQ Data...
+[13:58:49] INFO : Bulk Data [NNQ] Received! Processing...
+[13:59:19] INFO : Disconnecting...
+[13:59:19] WARNING: SerialPort Disconnected by User
+[14:04:44] INFO : Connecting to COM38 with: {'port': 'COM38', 'baud': '115200', 'data_bits': '8', 'parity': 'None', 'stop_bits': '1', 'flow': 'None'}
+[14:04:44] INFO : SerialPort Connected COM38@115200
+[14:04:45] INFO : Requesting 6-Channel NNQ Data...
+[14:04:45] INFO : >> TX: 410:EXPORT_NNQ
+[14:04:45] INFO : << RX Get
+ACK: Exporting NNQ Data...
+[14:04:46] INFO : Bulk Data [NNQ] Received! Processing...
+[14:05:17] INFO : Disconnecting...
+[14:05:17] WARNING: SerialPort Disconnected by User
+[14:05:28] INFO : Connecting to COM38 with: {'port': 'COM38', 'baud': '115200', 'data_bits': '8', 'parity': 'None', 'stop_bits': '1', 'flow': 'None'}
+[14:05:28] INFO : SerialPort Connected COM38@115200
+[14:05:29] INFO : Requesting 6-Channel NNQ Data...
+[14:05:29] INFO : >> TX: 410:EXPORT_NNQ
+[14:05:29] INFO : << RX Get
+ACK: Exporting NNQ Data...
+[14:05:30] INFO : Bulk Data [NNQ] Received! Processing...
+[14:05:48] INFO : Disconnecting...
+[14:05:48] WARNING: SerialPort Disconnected by User
