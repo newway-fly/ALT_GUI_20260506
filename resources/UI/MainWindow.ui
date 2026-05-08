@@ -1953,7 +1953,7 @@ Setting</string>
      </font>
     </property>
     <property name="text">
-     <string>dac 1 1000 、、、</string>
+     <string>dac 1 1000</string>
     </property>
    </widget>
   </widget>
